@@ -1,0 +1,1757 @@
+1.Тип данных, который представляет логические значения в JavaScript 
+A.	boolean 
+B.	char 
+C.	int
+D.	number
+E.	string 
+ANSWER: A
+2.Тип данных, который представляет целые числа в JavaScript
+A.	number 
+B.	int
+C.	Integer 
+D.	long
+E.	float 
+ANSWER: A
+3.Тип данных, который представляет текстовые строки в JavaScript
+A.	string 
+B.	char 
+C.	int
+D.	boolean
+E.	byte 
+ANSWER: A
+4.Тип данных, который представляет массивы в JavaScript
+A.	array 
+B.	list
+C.	vector 
+D.	Set
+E.	Object 
+ANSWER: E
+5.Тип данных, который используется для работы с датами в JavaScript
+A.	Date 
+B.	date 
+C.	calendar 
+D.	datetime 
+E.	time 
+ANSWER: A
+6.Способ объявления константы в JavaScript 
+A.	final const MY_CONSTANT = 42;
+B.	const MY_CONSTANT = 42;
+C.	let MY_CONSTANT = 42;
+D.	static const MY_CONSTANT = 42;
+E.	var MY_CONSTANT = 42;
+ANSWER: B
+7.Способ объявления переменной типа number с именем "myNumber" в JavaScript
+A.	number myNumber;
+B.	var myNumber = 0;
+C.	int myNumber = 0;
+D.	var number = myNumber;
+E.	let number = 0; 
+ANSWER: B
+8.Способ объявления переменной в глобальной области видимости в JavaScript
+A.	global 
+B.	var 
+C.	let 
+D.	const
+E.	public 
+ANSWER: B
+9.Способ объявления переменной с блочной областью видимости в JavaScript 
+A.	block
+B.	var
+C.	let
+D.	const
+E.	static 
+ANSWER: C
+10.Способ объявления переменной, которая не может быть переопределена, в JavaScript
+A.	const
+B.	let
+C.	var
+D.	static
+E.	final
+ANSWER: A
+11.Способ объявления функции в JavaScript
+A.	func myFunction() {}
+B.	def myFunction() {}
+C.	function myFunction() {}
+D.	fun myFunction() {}
+E.	var myFunction() {}
+ANSWER: C
+12.Способ вызова функции myFunction в JavaScript
+A.	call myFunction();
+B.	invoke myFunction();
+C.	myFunction.call();
+D.	myFunction();
+E.	myFunction.invoke(); 
+ANSWER: D
+13.Способ определения функции с использованием стрелочной функции в JavaScript
+A.	const myFunction = () => {};
+B.	let myFunction = function() {};
+C.	function myFunction() {};
+D.	myFunction = () => {};
+E.	arrow myFunction = () => {}
+ANSWER: A
+14.Способ объявления анонимной функции в JavaScript
+A.	function() {};
+B.	() => {};
+C.	func() {};
+D.	anonymous function() {};
+E.	lambda() {};
+ANSWER: A
+15.Способ передачи функции как аргумента в JavaScript
+A.	function myFunc(callback()) {}
+B.	function myFunc(function callback) {}
+C.	function myFunc(callback) {}
+D.	function myFunc(func callback) {}
+E.	function myFunc(lambda callback) {}
+ANSWER: C
+16.Способ создания массива в JavaScript
+A.	let myArray = [];
+B.	let myArray = {};
+C.	array myArray = [];
+D.	let myArray = Array();
+E.	int[] myArray = [];
+ANSWER: A
+17.Способ обращения к первому элементу массива myArray в JavaScript
+A.	myArray(0)
+B.	myArray[0]
+C.	myArray{0}
+D.	myArray<0> 
+E.	myArray-0
+ANSWER: B
+18.Метод, который добавляет элемент в конец массива в JavaScript
+A.	append()
+B.	add()
+C.	push()
+D.	insert()
+E.	concat()
+ANSWER: C
+19.Метод, который удаляет последний элемент массива в JavaScript
+A.	pop()
+B.	remove()
+C.	delete()
+D.	shift()
+E.	unshift()
+ANSWER: A
+20.Способ создания пустого объекта в JavaScript
+A.	let obj = {};
+B.	let obj = [];
+C.	let obj = null;
+D.	let obj = undefined;
+E.	let obj = new Object();
+ANSWER: A
+21.Оператор, который используется для присвоения значения переменной в JavaScript
+A.	==
+B.	=
+C.	:=
+D.	=>
+E.	->
+ANSWER: B
+22.Оператор, который используется для проверки равенства без приведения типов в JavaScript
+A.	==
+B.	=
+C.	===
+D.	!=
+E.	<=>
+ANSWER: C
+23.Оператор, который используется для проверки неравенства без приведения типов в JavaScript
+A.	!=
+B.	<>
+C.	!==
+D.	=!
+E.	/=
+ANSWER: C
+24.Оператор, который используется для сложения в JavaScript
+A.	+ 
+B.	– 
+C.	*
+D.	/
+E.	%
+ANSWER: A
+25.Оператор, который используется для конкатенации строк в JavaScript
+A.	&
+B.	+
+C.	Concat
+D.	Append
+E.	|
+ANSWER: B
+26.Способ объявления строки в JavaScript
+A.	let myString = "Hello";
+B.	let myString = 'Hello';
+C.	let myString = Hello;
+D.	All of the above
+E.	None of the above
+ANSWER: D
+27.Метод, который возвращает количество символов в строке в JavaScript
+A.	length()
+B.	count()
+C.	size()
+D.	len()
+E.	length
+ANSWER: E
+28.Метод, который возвращает подстроку в JavaScript
+A.	substr()
+B.	substring()
+C.	slice()
+D.	All of the above
+E.	None of the above
+ANSWER: D
+29.Метод, который преобразует строку в верхний регистр в JavaScript
+A.	toUpperCase()
+B.	toUpper()
+C.	upper()
+D.	toUpperCase
+E.	upperCase()
+ANSWER: A
+30.Метод, который преобразует строку в нижний регистр в JavaScript
+A.	toLowerCase()
+B.	toLower()
+C.	lower()
+D.	toLowerCase
+E.	lowerCase()
+ANSWER: A
+31.Способ преобразования строки "123" в число в JavaScript
+A.	Number("123")
+B.	parseInt("123")
+C.	+"123"
+D.	All of the above
+E.	None of the above
+ANSWER: D
+32.Способ преобразования числа в строку в JavaScript
+A.	String(123)
+B.	123.toString()
+C.	123 + ""
+D.	All of the above
+E.	None of the above
+ANSWER: D
+33.Способ преобразования логического значения в строку в JavaScript
+A.	String(true)
+B.	true.toString()
+C.	true + ""
+D.	All of the above
+E.	None of the above
+ANSWER: D
+34.Способ проверки типа переменной в JavaScript
+A.	typeof variable;
+B.	type variable;
+C.	kindof variable;
+D.	varType variable;
+E.	isType variable;
+ANSWER: A
+35.Способ преобразования объекта в JSON строку в JavaScript
+A.	JSON.stringify(obj);
+B.	JSON.parse(obj);
+C.	obj.toString();
+D.	obj.stringify();
+E.	obj.parse();
+ANSWER: A
+36.Способ написания условного оператора в JavaScript
+A.	if (condition) {}
+B.	if condition {}
+C.	if [condition] {}
+D.	if {condition} {}
+E.	if (condition);
+ANSWER: A
+37.Способ написания оператора switch в JavaScript
+A.	switch (expression) { case value: break; }
+B.	switch expression { case value: break; }
+C.	switch [expression] { case value: break; }
+D.	switch {expression} { case value: break; }
+E.	switch (expression); case value: break;
+ANSWER: A
+38.Способ написания цикла for в JavaScript
+A.	for (let i = 0; i < 10; i++) {}
+B.	for i = 0; i < 10; i++ {}
+C.	for (let i = 0; i < 10; i++) {}
+D.	for i = 0 to 10 {}
+E.	for (let i = 0; i < 10; i++);
+ANSWER: A
+39.Способ написания цикла while в JavaScript
+A.	while (condition) {}
+B.	while condition {}
+C.	while [condition] {}
+D.	while {condition} {}
+E.	while (condition);
+ANSWER: A
+40.Способ выхода из цикла в JavaScript
+A.	break
+B.	exit
+C.	stop
+D.	return
+E.	end
+ANSWER: A
+41.Способ написания блока try-catch в JavaScript
+A.	try {} catch (error) {}
+B.	try {} except (error) {}
+C.	try {} catch error {}
+D.	try {} except error {}
+E.	try {} catch (Exception e) {}
+ANSWER: A
+42.Способ генерации исключения в JavaScript
+A.	throw new Error("message");
+B.	raise new Error("message");
+C.	throw Error("message");
+D.	raise Error("message");
+E.	generate Error("message");
+ANSWER: A
+43.Способ добавления блока finally в try-catch в JavaScript
+A.	try {} catch (error) {} finally {}
+B.	try {} catch (error) {} final {}
+C.	try {} catch (error) {} end {}
+D.	try {} catch (error) {} finish {}
+E.	try {} catch (error) {} done {}
+ANSWER: A
+44.Способ проверки наличия ошибки в JavaScript
+A.	try {} catch (error) { if (error) {} }
+B.	try {} catch (error) { if (error.message) {} }
+C.	try {} catch (error) { if (error.code) {} }
+D.	try {} catch (error) { if (error) {} }
+E.	try {} catch (error) { if (error.type) {} }
+ANSWER: D
+45.Способ определения собственного класса ошибки в JavaScript
+A.	class MyError extends Error {}
+B.	class MyError inherits Error {}
+C.	class MyError extends Exception {}
+D.	class MyError inherits Exception {}
+E.	class MyError implements Error {}
+ANSWER: A
+46.Способ экспорта функции в JavaScript
+A.	export function myFunction() {}
+B.	module.export function myFunction() {}
+C.	export default function myFunction() {}
+D.	function export myFunction() {}
+E.	export myFunction() {}
+ANSWER: A
+47.Способ импорта модуля в JavaScript
+A.	import myModule from 'module';
+B.	require('module');
+C.	load('module');
+D.	import 'module';
+E.	include 'module';
+ANSWER: A
+48.Способ импорта всех экспортируемых объектов из модуля в JavaScript
+A.	import * as myModule from 'module';
+B.	import all from 'module';
+C.	import * from 'module';
+D.	require all from 'module';
+E.	import { * } from 'module';
+ANSWER: A
+49.Способ экспорта по умолчанию в JavaScript
+A.	export default myFunction;
+B.	export function myFunction() {}; 
+C.	module.export default myFunction;
+D.	function export default myFunction() {};
+E.	export myFunction;
+ANSWER: A
+50.Способ импорта экспортированного по умолчанию объекта в JavaScript
+A.	import myModule from 'module';
+B.	import { myModule } from 'module';
+C.	import * as myModule from 'module';
+D.	import default myModule from 'module';
+E.	import module from 'module';
+ANSWER: A
+51.Способ получения элемента по ID в JavaScript
+A.	document.getElementById('id');
+B.	document.getElement('id');
+C.	document.querySelector('#id');
+D.	Both A and C
+E.	None of the above
+ANSWER: D
+52.Способ получения элементов по классу в JavaScript
+A.	document.getElementsByClassName('class');
+B.	document.querySelectorAll('.class');
+C.	document.getClass('class');
+D.	Both A and B
+E.	None of the above
+ANSWER: D
+53.Способ изменения текста элемента в JavaScript
+A.	element.textContent = 'text';
+B.	element.innerText = 'text'; 
+C.	element.innerHTML = 'text'; 
+D.	All of the above
+E.	None of the above
+ANSWER: D
+54.Способ добавления класса к элементу в JavaScript
+A.	element.classList.add('class');
+B.	element.className = 'class';
+C.	element.addClass('class');
+D.	Both A and B
+E.	None of the above
+ANSWER: A
+55.Способ удаления класса из элемента в JavaScript
+A.	element.classList.remove('class');
+B.	element.className = '';
+C.	element.removeClass('class');
+D.	Both A and B
+E.	None of the above
+ANSWER: A
+56.Способ добавления обработчика события в JavaScript
+A.	element.addEventListener('event', handler);
+B.	element.on('event', handler);
+C.	element.attachEvent('event', handler);
+D.	element.onEvent('event', handler);
+E.	element.event(handler);
+ANSWER: A
+57.Способ удаления обработчика события в JavaScript
+A.	element.removeEventListener('event', handler);
+B.	element.off('event', handler);
+C.	element.detachEvent('event', handler);
+D.	element.unbind('event', handler);
+E.	element.noEvent('event', handler);
+ANSWER: A
+58.Способ предотвращения действия по умолчанию в JavaScript
+A.	event.preventDefault();
+B.	event.stop();
+C.	event.prevent();
+D.	event.stopPropagation();
+E.	event.cancel();
+ANSWER: A
+59.Способ остановки распространения события в JavaScript
+A.	event.stopPropagation();
+B.	event.stop();
+C.	event.prevent();
+D.	event.preventDefault();
+E.	event.cancel();
+ANSWER: A
+60.Способ проверки типа события в JavaScript
+A.	event.type
+B.	event.name
+C.	event.kind
+D.	event.eventType
+E.	event.category
+ANSWER: A
+61.Способ объявления асинхронной функции в JavaScript
+A.	async function myFunction() {}
+B.	function async myFunction() {}
+C.	function myFunction() async {}
+D.	async myFunction function() {}
+E.	function myFunction() async {}
+ANSWER: A
+62.Способ использования оператора await в JavaScript
+A.	let result = await promise;
+B.	let result = await(promise);
+C.	let result = promise.await();
+D.	let result = promise.await;
+E.	let result = await.promise;
+ANSWER: A
+63.Способ создания промиса в JavaScript
+A.	new Promise((resolve, reject) => {});
+B.	Promise.create((resolve, reject) => {});
+C.	let promise = new Promise();
+D.	promise = new Promise((resolve, reject) => {});
+E.	new Promise(resolve => {});
+ANSWER: A
+64.Способ обработки успешного завершения промиса в JavaScript
+A.	promise.then(result => {});
+B.	promise.catch(error => {});
+C.	promise.finally(() => {});
+D.	promise.complete(result => {});
+E.	promise.success(result => {});
+ANSWER: A
+65.Способ обработки ошибки в промисе в JavaScript
+A.	promise.then(result => {}).catch(error => {});
+B.	promise.catch(error => {}).then(result => {});
+C.	promise.finally(() => {}).catch(error => {});
+D.	promise.complete(() => {}).catch(error => {});
+E.	promise.error(error => {}).then(result => {});
+ANSWER: A
+66.Способ создания регулярного выражения в JavaScript
+A.	let regex = /pattern/;
+B.	let regex = new RegExp('pattern');
+C.	let regex = RegExp('pattern');
+D.	 Both A and B
+E.	All of the above
+ANSWER: E
+67.Способ проверки строки на соответствие регулярному выражению в JavaScript
+A.	regex.test(string);
+B.	string.match(regex);
+C.	string.test(regex);
+D.	Both A and B
+E.	All of the above
+ANSWER: D
+68.Способ поиска совпадений в строке с регулярным выражением в JavaScript
+A.	string.match(regex);
+B.	string.search(regex);
+C.	regex.exec(string);
+D.	Both A and C
+E.	All of the above
+ANSWER: E
+69.Способ замены части строки по регулярному выражению в JavaScript
+A.	string.replace(regex, 'replacement');
+B.	string.substitute(regex, 'replacement');
+C.	string.change(regex, 'replacement');
+D.	regex.replace(string, 'replacement');
+E.	regex.substitute(string, 'replacement');
+ANSWER: A
+70.Способ поиска индекса первого совпадения по регулярному выражению в строке в JavaScript
+A.	string.search(regex);
+B.	string.indexOf(regex);
+C.	regex.search(string);
+D.	regex.indexOf(string);
+E.	string.find(regex);
+ANSWER: A
+71.Способ создания объекта Date в JavaScript
+A.	let date = new Date();
+B.	let date = Date();
+C.	let date = new date();
+D.	let date = Date.create();
+E.	let date = create Date();
+ANSWER: A
+72.Способ получения текущей даты и времени в JavaScript
+A.	let now = new Date();
+B.	let now = Date.now();
+C.	let now = new Date().getTime();
+D.	Both A and B
+E.	All of the above
+ANSWER: D
+73.Способ получения года из объекта Date в JavaScript
+A.	date.getFullYear();
+B.	date.getYear();
+C.	date.year();
+D.	date.fullYear();
+E.	date.getYear;
+ANSWER: A
+74.Способ получения месяца из объекта Date в JavaScript
+A.	date.getMonth();
+B.	date.getMonth + 1;
+C.	date.month(); 
+D.	date.month;
+E.	date.getMonth;
+ANSWER: A
+75.Способ получения дня недели из объекта Date в JavaScript
+A.	date.getDay();
+B.	date.getDate();
+C.	date.day();
+D.	date.weekday();
+E.	date.getWeekday();
+ANSWER: A
+76.Способ округления числа вниз в JavaScript
+A.	Math.floor(number);
+B.	Math.round(number);
+C.	Math.ceil(number);
+D.	Math.down(number);
+E.	Math.truncate(number);
+ANSWER: A
+77.Способ округления числа до ближайшего целого в JavaScript
+A.	Math.round(number);
+B.	Math.floor(number);
+C.	Math.ceil(number);
+D.	Math.nearest(number);
+E.	Math.truncate(number);
+ANSWER: A
+78.Способ округления числа вверх в JavaScript
+A.	Math.ceil(number);
+B.	Math.floor(number);
+C.	Math.round(number);
+D.	Math.up(number);
+E.	Math.nearest(number);
+ANSWER: A
+79.Способ получения случайного числа между 0 и 1 в JavaScript
+A.	Math.random();
+B.	Math.rand();
+C.	Random.number();
+D.	Random.value();
+E.	Random();
+ANSWER: A
+80.Способ возведения числа в степень в JavaScript
+A.	Math.pow(base, exponent);
+B.	Math.power(base, exponent);
+C.	base ** exponent;
+D.	Both A and C
+E.	All of the above
+ANSWER: D
+81.Способ проверки, является ли значение массивом в JavaScript
+A.	Array.isArray(value);
+B.	value.isArray();
+C.	Array.check(value);
+D.	Array.validate(value);
+E.	value.isArray;
+ANSWER: A
+82.Способ проверки, является ли значение объектом в JavaScript
+A.	typeof value === 'object';
+B.	value.isObject();
+C.	Object.isObject(value);
+D.	value instanceof Object;
+E.	Both A and D
+ANSWER: E
+83.Способ объединения массивов в JavaScript
+A.	array1.concat(array2);
+B.	array1.join(array2);
+C.	array1.merge(array2);
+D.	Both A and C
+E.	All of the above
+ANSWER: A
+84.Способ получения уникальных значений из массива в JavaScript
+A.	Array.from(new Set(array));
+B.	array.unique();
+C.	array.distinct();
+D.	array.removeDuplicates();
+E.	array.uniques();
+ANSWER: A
+85.Способ сортировки массива в JavaScript
+A.	array.sort();
+B.	array.order();
+C.	array.arrange();
+D.	array.sequence();
+E.	array.sorted();
+ANSWER: A
+86.Способ проверки, является ли значение NaN в JavaScript
+A.	isNaN(value);
+B.	value.isNaN();
+C.	value === NaN;
+D.	NaN.check(value);
+E.	NaN.is(value);
+ANSWER: A
+87.Способ проверки, является ли значение undefined в JavaScript
+A.	value === undefined;
+B.	typeof value === 'undefined';
+C.	value.isUndefined();
+D.	value == undefined;
+E.	Both A and B
+ANSWER: E
+88.Способ проверки, является ли значение null в JavaScript
+A.	value === null;
+B.	value.isNull();
+C.	value == null;
+D.	value === undefined;
+E.	Both A and C
+ANSWER: E
+89.Способ проверки, является ли значение числом в JavaScript
+A.	typeof value === 'number';
+B.	Number.isFinite(value);
+C.	value.isNumber();
+D.	value instanceof Number;
+E.	Both A and B
+ANSWER: E
+90.Способ проверки, является ли значение строкой в JavaScript
+A.	typeof value === 'string';
+B.	value.isString();
+C.	value instanceof String;
+D.	value.is('string');
+E.	Both A and C
+ANSWER: E
+91.Способ выполнения GET-запроса с использованием fetch в JavaScript
+A.	fetch(url).then(response => response.json());
+B.	fetch(url, { method: 'GET' }).then(response => response.json());
+C.	fetch(url, { method: 'POST' }).then(response => response.json());
+D.	Both A and B
+E.	All of the above
+ANSWER: D
+92.Способ выполнения POST-запроса с использованием fetch в JavaScript
+A.	fetch(url, { method: 'POST', body: JSON.stringify(data) }).then(response => response.json());
+B.	fetch(url).then(response => response.json());
+C.	fetch(url, { method: 'GET' }).then(response => response.json());
+D.	fetch(url, { body: JSON.stringify(data) }).then(response => response.json()); 
+E.	fetch.post(url, { body: JSON.stringify(data) }).then(response => response.json());
+ANSWER: A
+93.Способ получения ответа в формате JSON с использованием fetch в JavaScript 
+A.	fetch(url).then(response => response.json());
+B.	fetch(url).then(response => response.text());
+C.	fetch(url).then(response => response.blob());
+D.	fetch(url).then(response => response.json());
+E.	fetch(url).then(response => response.formData());
+ANSWER: A
+94.Способ обработки ошибок при использовании fetch в JavaScript
+A.	fetch(url).then(response => response.json()).catch(error => console.error(error));
+B.	fetch(url).catch(error => console.error(error)).then(response => response.json());
+C.	fetch(url).then(response => response.json()).finally(() => console.log('done'));
+D.	fetch(url).catch(error => console.error(error)).finally(() => console.log('done'));
+E.	fetch(url).then(response => response.json()).catch(error => console.log('done'));
+ANSWER: A
+95.Способ выполнения асинхронного запроса с использованием async/await в JavaScript
+A.	async function fetchData() { let response = await fetch(url); let data = await response.json(); return data; }
+B.	function fetchData() { let response = await fetch(url); let data = await response.json(); return data; }
+C.	async function fetchData() { let response = fetch(url); let data = response.json(); return data; }
+D.	async function fetchData() { fetch(url).then(response => response.json()).then(data => return data); }
+E.	function fetchData() { fetch(url).then(response => response.json()).then(data => return data); }
+ANSWER: A
+96.Способ чтения файла с использованием FileReader в JavaScript
+A.	let reader = new FileReader(); reader.readAsText(file);
+B.	let reader = FileReader(); reader.readAsText(file);
+C.	let reader = new FileReader(); reader.readFile(file);
+D.	let reader = FileReader(); reader.readFile(file);
+E.	let reader = new FileReader(); reader.read(file);
+ANSWER: A
+97.Способ чтения файла в формате base64 с использованием FileReader в JavaScript
+A.	let reader = new FileReader(); reader.readAsDataURL(file);
+B.	let reader = new FileReader(); reader.readAsBase64(file);
+C.	let reader = new FileReader(); reader.readAsText(file);
+D.	let reader = FileReader(); reader.readAsDataURL(file);
+E.	let reader = FileReader(); reader.readAsBase64(file);
+ANSWER: A
+98.Способ обработки завершения чтения файла с использованием FileReader в JavaScript
+A.	reader.onload = function(event) { console.log(event.target.result); }
+B.	reader.onloadend = function(event) { console.log(event.target.result); }
+C.	reader.onloadstart = function(event) { console.log(event.target.result); }
+D.	reader.oncomplete = function(event) { console.log(event.target.result); }
+E.	reader.onfinish = function(event) { console.log(event.target.result); }
+ANSWER: A
+99.Способ проверки поддержки File API в браузере
+A.	if (window.File && window.FileReader && window.FileList && window.Blob) { console.log('File API supported'); }
+B.	if (window.FileReader) { console.log('File API supported'); }
+C.	if (window.File) { console.log('File API supported'); }
+D.	if (window.File && window.FileReader) { console.log('File API supported'); }
+E.	if (window.File && window.FileList) { console.log('File API supported'); } 
+ANSWER: A
+100.Способ создания объекта Blob в JavaScript
+A.	let blob = new Blob(['content'], { type: 'text/plain' });
+B.	let blob = Blob(['content'], { type: 'text/plain' });
+C.	let blob = new Blob(['content'], 'text/plain');
+D.	let blob = new Blob(['content']);
+E.	let blob = Blob(['content']);
+ANSWER: A
+101.Способ создания функции высшего порядка в JavaScript
+A. function higherOrderFunction(callback) { return function() { callback(); } }
+B. function higherOrderFunction(callback) { return () => callback(); }
+C. const higherOrderFunction = callback => () => callback();
+D. Both A and C
+E. All of the above
+ANSWER: E
+102.Способ применения функции к каждому элементу массива в JavaScript
+A.	array.map(element => function);
+B.	array.forEach(element => function);
+C.	array.map(element => function(element));
+D.	array.forEach(element => function(element));
+E.	array.apply(function);
+ANSWER: D
+103Способ фильтрации элементов массива в JavaScript
+A.	array.filter(element => condition);
+B.	array.filter(element => condition(element));
+C.	array.select(element => condition);
+D.	array.select(element => condition(element));
+E.	array.extract(element => condition);
+ANSWER: A
+104.Способ накопления значения из массива в JavaScript
+A.	array.reduce((accumulator, element) => accumulator + element, initialValue);
+B.	array.accumulate((accumulator, element) => accumulator + element, initialValue);
+C.	array.fold((accumulator, element) => accumulator + element, initialValue);
+D.	Both A and C
+E.	All of the above
+ANSWER: A
+105.Способ проверки, удовлетворяют ли все элементы массива условию в JavaScript
+A.	array.every(element => condition);
+B.	array.all(element => condition);
+C.	array.checkAll(element => condition);
+D.	array.every(element => condition(element));
+E.	array.each(element => condition);
+ANSWER: A
+106.Способ копирования свойств одного объекта в другой в JavaScript
+A.	Object.assign(target, source);
+B.	target.extend(source);
+C.	target.merge(source);
+D.	Object.copy(target, source);
+E.	target.assign(source);
+ANSWER: A
+107.Способ получения массива ключей объекта в JavaScript
+A.	Object.keys(object);
+B.	object.getKeys();
+C.	Object.getKeys(object);
+D.	object.keys();
+E.	object.keySet();
+ANSWER: A
+108.Способ получения массива значений объекта в JavaScript
+A.	Object.values(object);
+B.	object.getValues();
+C.	Object.getValues(object);
+D.	object.values();
+E.	object.valueSet();
+ANSWER: A
+109.Способ получения массива пар ключ-значение объекта в JavaScript
+A.	Object.entries(object);
+B.	object.getEntries();
+C.	Object.getEntries(object);
+D.	object.entries();
+E.	object.entrySet();
+ANSWER: A
+110.Способ проверки наличия свойства в объекте в JavaScript
+A.	'property' in object;
+B.	object.hasOwnProperty('property');
+C.	object.hasProperty('property');
+D.	Both A and B
+E.	Both B and C
+ANSWER: D
+111.Прототипы и наследование
+Способ создания объекта с заданным прототипом в JavaScript
+A.	Object.create(prototype);
+B.	Object.new(prototype);
+C.	new Object(prototype);
+D.	Object.construct(prototype);
+E.	prototype.createObject();
+ANSWER: A
+112.Способ проверки принадлежности объекта к классу в JavaScript
+A.	object instanceof ClassName;
+B.	ClassName.isPrototypeOf(object);
+C.	object.isInstanceOf(ClassName);
+D.	Both A and B
+E.	Both B and C
+ANSWER: A
+113.Способ добавления метода к прототипу класса в JavaScript
+A.	ClassName.prototype.methodName = function() {};
+B.	ClassName.methodName = function() {};
+C.	ClassName.prototype.addMethod('methodName', function() {});
+D.	ClassName.addMethod('methodName', function() {});
+E.	ClassName.prototype.methodName = () => {};
+ANSWER: A
+114.Способ создания подкласса в JavaScript
+A.	class SubClass extends SuperClass {}
+B.	class SubClass inherits SuperClass {}
+C.	class SubClass extends SuperClass () {}
+D.	class SubClass inherits SuperClass () {}
+E.	class SubClass implements SuperClass {}
+ANSWER: A
+115.Способ вызова метода родительского класса в JavaScript
+A.	super.methodName();
+B.	this.super.methodName();
+C.	parent.methodName();
+D.	this.parent.methodName();
+E.	super.methodName;
+ANSWER: A
+116.Символы и итераторы
+Способ создания уникального символа в JavaScript
+A.	const symbol = Symbol();
+B.	const symbol = new Symbol();
+C.	const symbol = Symbol.create();
+D.	const symbol = Symbol();
+E.	const symbol = new Symbol();
+ANSWER: A
+117.Способ определения итератора для объекта в JavaScript
+A.	object[Symbol.iterator] = function*() { yield value; }
+B.	object[Symbol.iterator] = function() { yield value; }
+C.	object.iterator = function*() { yield value; }
+D.	object[Symbol.iterator] = function*() { return value; }
+E.	object.iterator = function() { yield value; }
+ANSWER: A
+118.Способ использования итератора для объекта в JavaScript
+A.	for (let value of object) {}
+B.	for (let value in object) {}
+C.	object.forEach(value => {});
+D.	object.each(value => {});
+E.	object.iterate(value => {});
+ANSWER: A
+119.Способ создания символа с описанием в JavaScript
+A.	const symbol = Symbol('description');
+B.	const symbol = Symbol.for('description');
+C.	const symbol = new Symbol('description');
+D.	const symbol = Symbol('description');
+E.	const symbol = Symbol.create('description');
+ANSWER: A
+
+120.Способ получения символа из реестра глобальных символов в JavaScript
+A.	const symbol = Symbol.for('key');
+B.	const symbol = Symbol.get('key');
+C.	const symbol = new Symbol('key');
+D.	const symbol = Symbol('key');
+E.	const symbol = Symbol.create('key');
+ANSWER: A
+121.Generators
+Способ создания генератора в JavaScript
+A.	function* generator() { yield value; }
+B.	function generator*() { yield value; }
+C.	function generator() { yield value; }
+D.	generator function*() { yield value; }
+E.	generator* function() { yield value; }
+ANSWER: A
+122.Способ вызова генератора в JavaScript
+A.	const gen = generator();
+B.	const gen = generator;
+C.	const gen = new generator();
+D.	const gen = generator.new();
+E.	const gen = generator.create();
+ANSWER: A
+123.Способ получения значения из генератора в JavaScript
+A.	gen.next().value;
+B.	gen.value();
+C.	gen.getNext();
+D.	gen.fetch().value;
+E.	gen.advance().value;
+ANSWER: A
+124.Способ завершения генератора в JavaScript
+A.	gen.return();
+B.	gen.end();
+C.	gen.stop();
+D.	gen.complete();
+E.	gen.finish();
+ANSWER: A
+125.Способ обработки завершения генератора в JavaScript
+A.	gen.return(value);
+B.	gen.end(value);
+C.	gen.stop(value);
+D.	gen.complete(value);
+E.	gen.finish(value);
+ANSWER: A
+126.WeakMap и WeakSet
+Способ создания WeakMap в JavaScript
+A.	const weakMap = new WeakMap();
+B.	const weakMap = new WeakMap([]);
+C.	const weakMap = WeakMap();
+D.	const weakMap = new WeakMap();
+E.	const weakMap = WeakMap([]);
+ANSWER: A
+127.Способ добавления элемента в WeakMap в JavaScript
+A.	weakMap.set(key, value);
+B.	weakMap.put(key, value);
+C.	weakMap.add(key, value);
+D.	weakMap.insert(key, value);
+E.	weakMap.assign(key, value);
+ANSWER: A
+128.Способ проверки наличия ключа в WeakMap в JavaScript
+A.	weakMap.has(key);
+B.	weakMap.contains(key);
+C.	weakMap.includes(key);
+D.	weakMap.exists(key);
+E.	weakMap.getKey(key);
+ANSWER: A
+129.Способ удаления элемента из WeakMap в JavaScript
+A.	weakMap.delete(key);
+B.	weakMap.remove(key);
+C.	weakMap.clear(key);
+D.	weakMap.erase(key);
+E.	weakMap.discard(key);
+ANSWER: A
+130.Способ создания WeakSet в JavaScript
+A.	const weakSet = new WeakSet();
+B.	const weakSet = new WeakSet([]);
+C.	const weakSet = WeakSet();
+D.	const weakSet = new WeakSet();
+E.	const weakSet = WeakSet([]);
+ANSWER: A
+131.Способ добавления элемента в WeakSet в JavaScript
+A.	weakSet.add(value);
+B.	weakSet.set(value);
+C.	weakSet.put(value);
+D.	weakSet.insert(value);
+E.	weakSet.assign(value);
+ANSWER: A
+132.Способ проверки наличия элемента в WeakSet в JavaScript
+A.	weakSet.has(value);
+B.	weakSet.contains(value);
+C.	weakSet.includes(value);
+D.	weakSet.exists(value);
+E.	weakSet.getValue(value);
+ANSWER: A
+133.Способ удаления элемента из WeakSet в JavaScript
+A.	weakSet.delete(value);
+B.	weakSet.remove(value);
+C.	weakSet.clear(value);
+D.	weakSet.erase(value);
+E.	weakSet.discard(value);
+ANSWER: A
+Map и Set
+134.Способ создания Map в JavaScript
+A.	const map = new Map();
+B.	const map = new Map([]);
+C.	const map = Map();
+D.	const map = new Map();
+E.	const map = Map([]);
+ANSWER: A
+135.Способ добавления элемента в Map в JavaScript
+A.	map.set(key, value);
+B.	map.put(key, value);
+C.	map.add(key, value);
+D.	map.insert(key, value);
+E.	map.assign(key, value);
+ANSWER: A
+136.Способ проверки наличия ключа в Map в JavaScript
+A.	map.has(key);
+B.	map.contains(key);
+C.	map.includes(key);
+D.	map.exists(key);
+E.	map.getKey(key);
+ANSWER: A
+137.Способ удаления элемента из Map в JavaScript
+A.	map.delete(key);
+B.	map.remove(key);
+C.	map.clear(key);
+D.	map.erase(key);
+E.	map.discard(key);
+ANSWER: A
+138.Способ получения значения по ключу из Map в JavaScript
+A.	map.get(key);
+B.	map.fetch(key);
+C.	map.retrieve(key);
+D.	map.obtain(key);
+E.	map.acquire(key);
+ANSWER: A
+139.Способ создания Set в JavaScript
+A.	const set = new Set();
+B.	const set = new Set([]);
+C.	const set = Set();
+D.	const set = new Set();
+E.	const set = Set([]);
+ANSWER: A
+140.Способ добавления элемента в Set в JavaScript
+A.	set.add(value);
+B.	set.set(value);
+C.	set.put(value);
+D.	set.insert(value);
+E.	set.assign(value);
+ANSWER: A
+141.Способ проверки наличия элемента в Set в JavaScript
+A.	set.has(value);
+B.	set.contains(value);
+C.	set.includes(value);
+D.	set.exists(value);
+E.	set.getValue(value);
+ANSWER: A
+142.Способ удаления элемента из Set в JavaScript
+A.	set.delete(value);
+B.	set.remove(value);
+C.	set.clear(value);
+D.	set.erase(value);
+E.	set.discard(value);
+ANSWER: A
+143.Способ преобразования Set в массив в JavaScript
+A.	Array.from(set);
+B.	set.toArray();
+C.	set.asArray();
+D.	set.convertToArray();
+E.	set.toArray();
+ANSWER: A
+144.Современные возможности ES6+
+Способ создания класса в JavaScript
+A.	class MyClass {}
+B.	class MyClass() {}
+C.	MyClass {}
+D.	MyClass() {}
+E.	class create MyClass {}
+ANSWER: A
+145.Способ объявления асинхронной функции в JavaScript
+A.	async function myFunction() {}
+B.	function async myFunction() {}
+C.	async myFunction() {}
+D.	function myFunction async() {}
+E.	myFunction async function() {}
+ANSWER: A
+146.Способ использования модуля в JavaScript
+A.	import module from 'module';
+B.	include module from 'module';
+C.	require module from 'module';
+D.	import 'module' as module;
+E.	require 'module';
+ANSWER: A
+147.Способ экспорта функции из модуля в JavaScript
+A.	export function myFunction() {}
+B.	export myFunction() {}
+C.	function myFunction() { export default; }
+D.	function myFunction() { export; }
+E.	export default myFunction() {}
+ANSWER: A
+148.Способ объявления переменной, видимой только внутри блока кода, в JavaScript
+A.	let variable;
+B.	var variable;
+C.	const variable;
+D.	block variable;
+E.	static variable;
+ANSWER: A
+149.Способ использования параметров по умолчанию в функции в JavaScript
+A.	function myFunction(param = 'default') {}
+B.	function myFunction('default' = param) {}
+C.	function myFunction(default param) {}
+D.	function myFunction(param == 'default') {}
+E.	function myFunction(param === 'default') {}
+ANSWER: A
+150.Способ создания стрелочной функции в JavaScript
+A.	const myFunction = () => {};
+B.	const myFunction = function() {};
+C.	function myFunction() => {};
+D.	myFunction = () => {};
+E.	function => myFunction() {};
+ANSWER: A
+151.Тег, используемый для создания гиперссылки
+A.	<a>
+B.	<link>
+C.	<href>
+D.	<hyperlink>
+E.	<url>
+ANSWER: A
+152.Атрибут, используемый для задания URL-адреса изображения в теге <img>
+A.	href
+B.	url
+C.	link
+D.	src
+E.	img
+ANSWER: D
+153.Тег, используемый для создания заголовка первого уровня
+A.	<header>
+B.	<h1>
+C.	<title>
+D.	<head>
+E.	<h2>
+ANSWER: B
+154.Атрибут, используемый для задания альтернативного текста для изображения
+A.	alt
+B.	title
+C.	description
+D.	caption
+E.	text
+ANSWER: A
+155.Тег, используемый для создания ненумерованного списка
+A.	<ol>
+B.	<ul>
+C.	<li>
+D.	<dl>
+E.	<list>
+ANSWER: B
+156.Свойство CSS, используемое для задания цвета текста
+A.	font-color
+B.	text-color
+C.	color
+D.	text-style
+E.	font-style
+ANSWER: C
+157.Способ задать шрифт для текста в CSS
+A.	font-family
+B.	font-type
+C.	text-font
+D.	font-style
+E.	text-family
+ANSWER: A
+158.Тег, используемый для создания таблицы
+A.	<table>
+B.	<tab>
+C.	<grid>
+D.	<tbl>
+E.	<t>
+ANSWER: A
+159.Атрибут, используемый для объединения ячеек таблицы по горизонтали
+A.	rowspan
+B.	colspan
+C.	merge
+D.	combine
+E.	span
+ANSWER: B
+160.Свойство CSS, используемое для задания внешнего отступа элемента
+A.	padding
+B.	margin
+C.	border
+D.	spacing
+E.	gap
+ANSWER: B
+161.Тег, используемый для создания строки таблицы
+A.	<td>
+B.	<tr>
+C.	<th>
+D.	<row>
+E.	<table-row>
+ANSWER: B
+162.Способ задать жирный шрифт в CSS
+A.	font-weight
+B.	font-style
+C.	font-bold
+D.	text-weight
+E.	text-bold
+ANSWER: A
+163.Тег, используемый для создания параграфа
+A.	<par>
+B.	<p>
+C.	<paragraph>
+D.	<pg>
+E.	<text>
+ANSWER: B
+164.Атрибут, используемый для задания ссылки в теге <a>
+A.	link
+B.	href
+C.	src
+D.	url
+E.	target
+ANSWER: B
+165.Свойство CSS, используемое для задания внутреннего отступа элемента
+A.	margin
+B.	padding
+C.	border
+D.	spacing
+E.	gap
+ANSWER: B
+166.Тег, используемый для создания ячейки таблицы
+A.	<td>
+B.	<tr>
+C.	<th>
+D.	<cell>
+E.	<table-data>
+ANSWER: A
+167.Свойство CSS, используемое для задания ширины элемента
+A.	width
+B.	size
+C.	height
+D.	length
+E.	extent
+ANSWER: A
+168.Тег, используемый для создания нумерованного списка
+A.	<ul>
+B.	<ol>
+C.	<li>
+D.	<dl>
+E.	<list>
+ANSWER: B
+169.Атрибут, используемый для задания целевой области ссылки
+A.	target
+B.	href
+C.	link
+D.	url
+E.	dest
+ANSWER: A
+170.Свойство CSS, используемое для задания высоты элемента
+A.	height
+B.	size
+C.	width
+D.	length
+E.	extent
+ANSWER: A
+171.Тег, используемый для создания заголовка второго уровня
+A.	<h2>
+B.	<h1>
+C.	<h3>
+D.	<title>
+E.	<header>
+ANSWER: A
+172.Атрибут, используемый для задания идентификатора элемента
+A.	class
+B.	id
+C.	name
+D.	type
+E.	ref
+ANSWER: B
+173.Свойство CSS, используемое для задания типа шрифта
+A.	font-style
+B.	font-family
+C.	text-font
+D.	font-type
+E.	text-style
+ANSWER: B
+174.Тег, используемый для вставки изображения
+A.	<image>
+B.	<img>
+C.	<picture>
+D.	<src>
+E.	<graphic>
+ANSWER: B
+175.Атрибут, используемый для задания текста всплывающей подсказки
+A.	tooltip
+B.	alt
+C.	title
+D.	hint
+E.	text
+ANSWER: C
+176.Свойство CSS, используемое для задания стиля текста
+A.	font-style
+B.	text-decorationпойск
+C.	text-style
+D.	font-decoration
+E.	text-transform
+ANSWER: B
+177.Тег, используемый для создания формы
+A.	<form>
+B.	<input>
+C.	<textarea>
+D.	<button>
+E.	<fieldset>
+ANSWER: A
+178.Атрибут, используемый для задания метода отправки данных формы
+A.	method
+B.	action
+C.	submit
+D.	send
+E.	post
+ANSWER: A
+179.Свойство CSS, используемое для задания нижнего отступа элемента
+A.	padding-bottom
+B.	margin-bottom
+C.	border-bottom
+D.	bottom
+E.	gap-bottom
+ANSWER: B
+180.Тег, используемый для создания кнопки
+A.	<input>
+B.	<button>
+C.	<submit>
+D.	<click>
+E.	<control>
+ANSWER: B
+181.Атрибут, используемый для задания имени элемента формы
+A.	id
+B.	name
+C.	class
+D.	value
+E.	type
+ANSWER: B
+182.Свойство CSS, используемое для задания левого отступа элемента
+A.	padding-left
+B.	margin-left
+C.	border-left
+D.	left
+E.	gap-left
+ANSWER: B
+183.Тег, используемый для вставки видеоконтента
+A.	<video>
+B.	<media>
+C.	<source>
+D.	<embed>
+E.	<file>
+ANSWER: A
+184.Атрибут, используемый для задания ширины изображения
+A.	width
+B.	size
+C.	height
+D.	length
+E.	extent
+ANSWER: A
+185.Свойство CSS, используемое для задания правого отступа элемента
+A.	padding-right
+B.	margin-right
+C.	border-right
+D.	right
+E.	gap-right
+ANSWER: B
+186.Тег, используемый для создания области ввода текста
+A.	<textarea>
+B.	<input>
+C.	<form>
+D.	<textbox>
+E.	<field>
+ANSWER: A
+187.Атрибут, используемый для задания максимального числа символов в поле ввода
+A.	maxlength
+B.	maxchars
+C.	limit
+D.	chars
+E.	maxsize
+ANSWER: A
+188.Свойство CSS, используемое для задания семейства шрифтов
+A.	font-family
+B.	font-style
+C.	font-type
+D.	text-font
+E.	text-style
+ANSWER: A
+189.Тег, используемый для создания выпадающего списка
+A.	<select>
+B.	<list>
+C.	<dropdown>
+D.	<menu>
+E.	<option>
+ANSWER: A
+190.Атрибут, используемый для задания заголовка группы элементов в форме
+A.	title
+B.	name
+C.	label
+D.	group
+E.	header
+ANSWER: C
+191.Свойство CSS, используемое для задания толщины границы
+A.	border-width
+B.	border-thickness
+C.	line-width
+D.	line-thickness
+E.	outline-width
+ANSWER: A
+192.Тег, используемый для создания маркированного списка
+A.	<ol>
+B.	<ul>
+C.	<li>
+D.	<dl>
+E.	<list>
+ANSWER: B
+193.Атрибут, используемый для задания цвета текста в теге <font>
+A.	color
+B.	text-color
+C.	font-color
+D.	style
+E.	font-style
+ANSWER: A
+194.Свойство CSS, используемое для задания выравнивания текста
+A.	text-align
+B.	align-text
+C.	text-position
+D.	position
+E.	text-style
+ANSWER: A
+195.Атрибут, используемый для задания адреса, на который отправляются данные формы
+A.	action
+B.	submit
+C.	target
+D.	url
+E.	link
+ANSWER: A
+196.Свойство CSS, используемое для задания фонового цвета элемента
+A.	background-color
+B.	color
+C.	background
+D.	bgcolor
+E.	bg-color
+ANSWER: A
+197.Атрибут, используемый для задания выравнивания содержимого ячейки таблицы
+A.	align
+B.	valign
+C.	alignment
+D.	vertical-align
+E.	content-align
+ANSWER: D
+198.Свойство CSS, используемое для задания стиля рамки
+A.	border-style
+B.	border
+C.	outline
+D.	frame
+E.	border-width
+ANSWER: A
+199.Тег, используемый для создания подзаголовка
+A.	<h2>
+B.	<h1>
+C.	<h3>
+D.	<title>
+E.	<header>
+ANSWER: C
+200.Атрибут, используемый для задания выравнивания изображения в теге <img>
+A.	align
+B.	valign
+C.	alignment
+D.	vertical-align
+E.	image-align
+ANSWER: A
+201.Свойство CSS, используемое для задания ширины границы
+A.	border-width
+B.	border-thickness
+C.	line-width
+D.	line-thickness
+E.	outline-width
+ANSWER: A
+202.Тег, используемый для создания ссылки в списке элементов
+A.	<link>
+B.	<a>
+C.	<list>
+D.	<url>
+E.	<href>
+ANSWER: B
+203.Атрибут, используемый для задания выравнивания текста в ячейке таблицы
+A.	align
+B.	valign
+C.	alignment
+D.	vertical-align
+E.	text-align
+ANSWER: E
+204.Свойство CSS, используемое для задания стиля маркера списка
+A.	list-style-type
+B.	list-type
+C.	marker-style
+D.	marker-type
+E.	style-type
+ANSWER: A
+205.Тег, используемый для создания элемента списка
+A.	<li>
+B.	<list>
+C.	<ul>
+D.	<item>
+E.	<element>
+ANSWER: A
+206.Атрибут, используемый для задания горизонтального выравнивания элемента
+A.	align
+B.	valign
+C.	alignment
+D.	horizontal-align
+E.	text-align
+ANSWER: A
+207.Свойство CSS, используемое для задания высоты границы
+A.	border-height
+B.	border-thickness
+C.	line-height
+D.	line-thickness
+E.	outline-height
+ANSWER: C
+208.Тег, используемый для создания заголовка третьего уровня
+A.	<h3>
+B.	<h2>
+C.	<h1>
+D.	<title>
+E.	<header>
+ANSWER: A
+209.Атрибут, используемый для задания высоты изображения в теге <img>
+A.	height
+B.	size
+C.	width
+D.	length
+E.	extent
+ANSWER: A
+210.Свойство CSS, используемое для задания цвета фона элемента
+A.	background-color
+B.	color
+C.	background
+D.	bgcolor
+E.	bg-color
+ANSWER: A
+211.Тег, используемый для создания подчеркнутого текста
+A.	<underline>
+B.	<u>
+C.	<text>
+D.	<style>
+E.	<highlight>
+ANSWER: B
+212.Атрибут, используемый для задания цвета границы элемента
+A.	border-color
+B.	color
+C.	border
+D.	outline
+E.	border-style
+ANSWER: A
+Свойство CSS, используемое для задания отступов внутри элемента
+A.	padding
+B.	margin
+C.	border
+D.	spacing
+E.	gap
+ANSWER: A
+213.Тег, используемый для создания списка опций в выпадающем списке
+A.	<option>
+B.	<select>
+C.	<list>
+D.	<dropdown>
+E.	<menu>
+ANSWER: A
+214.Атрибут, используемый для задания ширины ячейки таблицы
+A.	width
+B.	size
+C.	height
+D.	length
+E.	extent
+ANSWER: A
+215.Свойство CSS, используемое для задания положения элемента относительно окружающих элементов
+A.	position
+B.	align
+C.	placement
+D.	location
+E.	orientation
+ANSWER: A
+216.Атрибут, используемый для задания шрифта в теге <font>
+A.	font-family
+B.	font-style
+C.	font-type
+D.	text-font
+E.	text-style
+ANSWER: A
+217.Свойство CSS, используемое для задания отступа сверху элемента
+A.	padding-top
+B.	margin-top
+C.	border-top
+D.	top
+E.	gap-top
+ANSWER: A
+218.Тег, используемый для создания рамки вокруг элемента
+A.	<border>
+B.	<outline>
+C.	<frame>
+D.	<box>
+E.	<border-box>
+ANSWER: B
+219.Атрибут, используемый для задания ширины группы ячеек таблицы
+A.	colspan
+B.	rowspan
+C.	merge
+D.	combine
+E.	span
+ANSWER: A
+220.Свойство CSS, используемое для задания стиля линии
+A.	line-style
+B.	border-style
+C.	outline-style
+D.	line-type
+E.	style-line
+ANSWER: B
+221.Тег, используемый для создания списка опций в множественном выборе
+A.	<option>
+B.	<select>
+C.	<list>
+D.	<dropdown>
+E.	<multiselect>
+ANSWER: B
+222.Атрибут, используемый для задания цвета фона страницы
+A.	background-color
+B.	color
+C.	background
+D.	bgcolor
+E.	page-color
+ANSWER: A
+223.Свойство CSS, используемое для задания высоты области ввода текста
+A.	input-height
+B.	height
+C.	textarea-height
+D.	input-size
+E.	size
+224.ANSWER: B
+Тег, используемый для создания ссылки-якоря
+A.	<anchor>
+B.	<a>
+C.	<link>
+D.	<href>
+E.	<url>
+ANSWER: A
+225.Атрибут, используемый для задания высоты ячейки таблицы
+A.	height
+B.	size
+C.	width
+D.	length
+E.	extent
+ANSWER: A
+226.Свойство CSS, используемое для задания толщины линии
+A.	line-width
+B.	border-width
+C.	outline-width
+D.	thickness
+E.	width
+ANSWER: A
+227.Атрибут, используемый для задания цвета фона ячейки таблицы
+A.	background-color
+B.	bgcolor
+C.	color
+D.	bg-color
+E.	cell-color
+ANSWER: B
+228.Свойство CSS, используемое для задания ширины текстового поля
+A.	width
+B.	size
+C.	input-width
+D.	text-size
+E.	field-width
+ANSWER: A
+229.Тег, используемый для создания горизонтальной линии на веб-странице
+A.	<hr>
+B.	<line>
+C.	<horizontal>
+D.	<divider>
+E.	<rule>
+ANSWER: A
+230.Атрибут, используемый для задания высоты изображения в процентах в теге <img>
+A.	height
+B.	size
+C.	width
+D.	length
+E.	extent
+ANSWER: A
+231.Свойство CSS, используемое для задания стиля фона элемента
+A.	background-style
+B.	style-background
+C.	background
+D.	bg-style
+E.	style-bg
+ANSWER: C
+232.Атрибут, используемый для задания выравнивания элемента по вертикали
+A.	vertical-align
+B.	align
+C.	valign
+D.	vertical
+E.	top
+ANSWER: A
+233.Тег для создания заголовка четвертого уровня
+A.	<h4>
+B.	<h3>
+C.	<h5>
+D.	<header>
+E.	<heading>
+ANSWER: A
+234.Атрибут для задания цвета текста в теге <font>
+A.	color
+B.	text-color
+C.	font-color
+D.	style
+E.	font-style
+ANSWER: A
+235.Тег, используемый для создания заголовка четвертого уровня
+A.	<h4>
+B.	<h3>
+C.	<h5>
+D.	<header>
+E.	<heading>
+ANSWER: A
+236.Свойство CSS, используемое для задания размера текста
+A.	font-size
+B.	text-size
+C.	size
+D.	text-style
+E.	font-style
+ANSWER: A
+237.Атрибут, используемый для задания выравнивания содержимого таблицы
+A.	align
+B.	valign
+C.	alignment
+D.	vertical-align
+E.	`text-align`
+ANSWER: E
+238.Свойство CSS, используемое для задания стиля границы
+A.	border-style
+B.	border
+C.	outline
+D.	frame
+E.	border-width
+ANSWER: A
+239.Обозначает начало переменной в php
+A.	$ 
+B.	@
+C.	*
+D.	%
+E.	#
+ANSWER: A
+240.Обозначает конец инструкции в php
+A.	#
+B.	; 
+C.	:
+D.	@
+E.	$
+ANSWER: B
+241.Используется для объявления переменной в php
+A.	int
+B.	bool
+C.	var 
+D.	str
+E.	$name
+ANSWER: C
+242.Используется для хранения целых чисел в php
+A.	string
+B.	float
+C.	boolean
+D.	integer 
+E.	char
+ANSWER: D
+243.Сложения двух переменных в php
+A.	+   
+B.	-
+C.	*
+D.	/
+E.	%
+ANSWER: A
+244.Используется для проверки условия в php
+A.	for
+B.	while
+C.	switch
+D.	if 
+E.	do
+ANSWER: D
+245.Значение _________- присвоено переменной $result после выполнения следующего кода: $result = 10 % 3;
+A.	1
+B.	2 
+C.	3
+D.	4
+E.	10
+ANSWER: B
+246.Значение ___________ присвоено переменной $name после выполнения следующего кода: $name = "john" . "doe";
+A.	"johndoe" 
+B.	"john doe"
+C.	"john"
+D.	"doe"
+E.	"johndoedoe"
+ANSWER: A
+247.Объединения двух строк в php
+A.	+  
+B.	-
+C.	*
+D.	/
+E.	%
+ANSWER: A
+248.Это значение предназначена для присвоения переменной $haspassed после выполнения следующего кода: $score = 75; $haspassed = ($score >= 60)  true : false;
+A.	true 
+B.	false
+C.	75
+D.	60
+E.	0
+ANSWER: A
+249.Тип данных, который используется для хранения десятичных чисел в php
+A.	string
+B.	float 
+C.	boolean
+D.	integer
+E.	char
+ANSWER: B
