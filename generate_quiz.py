@@ -133,8 +133,7 @@ body{{font-family:Arial,sans-serif;background:radial-gradient(circle at top,#4b7
 const questions = {json.dumps(questions, ensure_ascii=False)};
 const total = questions.length;
 let score = 0;
-const pending = shuffle(Array.from({{length: total}}, (_, i) => i));
-let wrongQueue = [];
+const pending = Array.from({{length: total}}, (_, i) => i);
 let currentIndex = null;
 const correctSet = new Set();
 const remainingEl = document.getElementById('remaining');
@@ -156,7 +155,7 @@ function shuffle(array) {{
   return array;
 }}
 function updateProgress() {{
-  const remaining = pending.length + wrongQueue.length + 1;
+  const remaining = pending.length + (currentIndex === null ? 0 : 1);
   remainingEl.textContent = remaining;
   totalEl.textContent = total;
   const answered = total - remaining;
@@ -165,10 +164,7 @@ function updateProgress() {{
 }}
 function getNextQuestionIndex() {{
   if (pending.length === 0) {{
-    if (wrongQueue.length === 0) {{
-      return null;
-    }}
-    pending.push(...shuffle(wrongQueue.splice(0)));
+    return null;
   }}
   return pending.shift();
 }}
@@ -215,10 +211,15 @@ function onSelect(event) {{
       score += 10;
       scoreEl.textContent = score;
     }}
-    wrongQueue = wrongQueue.filter(i => i !== currentIndex);
+    // remove any future scheduled occurrence of this question
+    for (let i = pending.length - 1; i >= 0; i--) {{
+      if (pending[i] === currentIndex) pending.splice(i, 1);
+    }}
   }} else {{
-    if (!wrongQueue.includes(currentIndex)) {{
-      wrongQueue.push(currentIndex);
+    // schedule this question to reappear after 3 subsequent questions
+    if (!pending.includes(currentIndex)) {{
+      const insertPos = Math.min(3, pending.length);
+      pending.splice(insertPos, 0, currentIndex);
     }}
   }}
   resultEl.style.display = 'block';
@@ -228,7 +229,7 @@ function onSelect(event) {{
     explEl.textContent = item.explanation;
   }}
   nextBtn.disabled = false;
-  if (pending.length === 0 && wrongQueue.length === 0) {{
+  if (pending.length === 0) {{
     nextBtn.textContent = 'Узнать результат';
   }}
 }}
@@ -236,8 +237,7 @@ nextBtn.addEventListener('click', () => {{
   renderQuestion();
 }});
 restartBtn.addEventListener('click', () => {{
-  pending.splice(0, pending.length, ...shuffle(Array.from({{length: total}}, (_, i) => i)));
-  wrongQueue = [];
+  pending.splice(0, pending.length, ...Array.from({{length: total}}, (_, i) => i));
   correctSet.clear();
   score = 0;
   scoreEl.textContent = score;
