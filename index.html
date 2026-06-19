@@ -114,7 +114,7 @@ function renderQuestion() {
   explEl.style.display = 'none';
   nextBtn.disabled = true;
   nextBtn.textContent = 'Следующий вопрос';
-  const keys = Object.keys(item.options);
+  const keys = shuffle(Object.keys(item.options));
   for (const key of keys) {
     const btn = document.createElement('button');
     btn.className = 'option-btn';
