@@ -96,6 +96,14 @@ body{{font-family:Arial,sans-serif;background:radial-gradient(circle at top,#4b7
 .footer button:hover{{background:#0ea5e9;}}
 .result{{margin-top:16px;padding:18px;border-radius:16px;background:rgba(0,0,0,.24);}}
 .explanation{{margin-top:14px;padding:18px;border-radius:16px;background:rgba(255,255,255,.08);color:#f8fafc;font-size:1rem;line-height:1.7;}}
+.nav-panel{{margin-top:24px;padding:16px;background:rgba(255,255,255,.08);border-radius:16px;border:1px solid rgba(255,255,255,.12);}}
+.nav-title{{font-size:.9rem;opacity:.8;margin-bottom:12px;text-transform:uppercase;}}
+.nav-buttons{{display:grid;grid-template-columns:repeat(auto-fill,minmax(40px,1fr));gap:8px;}}
+.nav-btn{{border:2px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);color:#fff;width:40px;height:40px;border-radius:8px;cursor:pointer;font-size:.9rem;transition:.2s;font-weight:500;}}
+.nav-btn:hover{{background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.5);}}
+.nav-btn.current{{background:#38bdf8;border-color:#38bdf8;color:#1e293b;}}
+.nav-btn.answered{{background:#22c55e;border-color:#22c55e;color:#fff;}}
+.nav-btn.pending{{background:rgba(239,68,68,.3);border-color:#ef4444;color:#fca5a5;}}
 @media (max-width:680px){{
   .container{{padding:14px;}}
   .header h1{{font-size:1.6rem;}}
@@ -103,6 +111,8 @@ body{{font-family:Arial,sans-serif;background:radial-gradient(circle at top,#4b7
   .question{{font-size:1.28rem;}}
   .option-btn{{font-size:1rem;min-height:70px;}}
   .footer button{{width:100%;}}
+  .nav-buttons{{grid-template-columns:repeat(auto-fill,minmax(35px,1fr));}}
+  .nav-btn{{width:35px;height:35px;font-size:.8rem;}}
 }}
 </style>
 </head>
@@ -123,6 +133,10 @@ body{{font-family:Arial,sans-serif;background:radial-gradient(circle at top,#4b7
 <div class='options' id='options'></div>
 <div class='result' id='result' style='display:none;'></div>
 <div class='explanation' id='explanation' style='display:none;'></div>
+<div class='nav-panel'>
+  <div class='nav-title'>Навигация по вопросам</div>
+  <div class='nav-buttons' id='nav-buttons'></div>
+</div>
 <div class='footer'>
 <button id='nextBtn' disabled>Следующий вопрос</button>
 <button id='restartBtn' style='display:none;'>Пройти заново</button>
@@ -147,6 +161,7 @@ const resultEl = document.getElementById('result');
 const explEl = document.getElementById('explanation');
 const nextBtn = document.getElementById('nextBtn');
 const restartBtn = document.getElementById('restartBtn');
+const navButtonsEl = document.getElementById('nav-buttons');
 function shuffle(array) {{
   for (let i = array.length - 1; i > 0; i--) {{
     const j = Math.floor(Math.random() * (i + 1));
@@ -154,13 +169,38 @@ function shuffle(array) {{
   }}
   return array;
 }}
+function updateNavigation() {{
+  navButtonsEl.innerHTML = '';
+  for (let i = 0; i < total; i++) {{
+    const btn = document.createElement('button');
+    btn.className = 'nav-btn';
+    btn.textContent = i + 1;
+    btn.dataset.index = i;
+    
+    if (i === currentIndex) {{
+      btn.classList.add('current');
+    }} else if (correctSet.has(i)) {{
+      btn.classList.add('answered');
+    }} else if (pending.includes(i)) {{
+      btn.classList.add('pending');
+    }}
+    
+    btn.addEventListener('click', () => jumpToQuestion(i));
+    navButtonsEl.appendChild(btn);
+  }}
+}}
+function jumpToQuestion(index) {{
+  if (index < 0 || index >= total) return;
+  currentIndex = index;
+  renderQuestionByIndex();
+}}
 function updateProgress() {{
-  const remaining = pending.length + (currentIndex === null ? 0 : 1);
-  remainingEl.textContent = remaining;
-  totalEl.textContent = total;
-  const answered = total - remaining;
+  const answered = correctSet.size;
   const percent = total ? Math.round((answered / total) * 100) : 100;
+  remainingEl.textContent = total - answered;
+  totalEl.textContent = total;
   progressFill.style.width = `${{percent}}%`;
+  updateNavigation();
 }}
 function getNextQuestionIndex() {{
   if (pending.length === 0) {{
@@ -175,6 +215,9 @@ function renderQuestion() {{
     return;
   }}
   currentIndex = nextIndex;
+  renderQuestionByIndex();
+}}
+function renderQuestionByIndex() {{
   const item = questions[currentIndex];
   updateProgress();
   qNumEl.textContent = `Вопрос ${{item.num}}`;
@@ -241,6 +284,7 @@ restartBtn.addEventListener('click', () => {{
   correctSet.clear();
   score = 0;
   scoreEl.textContent = score;
+  currentIndex = null;
   nextBtn.textContent = 'Следующий вопрос';
   nextBtn.style.display = 'inline-block';
   restartBtn.style.display = 'none';
@@ -251,11 +295,12 @@ function showFinal() {{
   qNumEl.textContent = 'Финиш';
   qEl.textContent = `Вы набрали ${{score}} из ${{total * 10}} возможных.`;
   resultEl.style.display = 'block';
-  resultEl.textContent = 'Все вопросы отвечены правильно!';
+  resultEl.textContent = correctSet.size === total ? 'Все вопросы отвечены правильно! 🎉' : `Ответлено правильно: ${{correctSet.size}}/${{total}}`;
   explEl.style.display = 'none';
   nextBtn.disabled = true;
   nextBtn.style.display = 'none';
   restartBtn.style.display = 'inline-block';
+  updateNavigation();
 }}
 renderQuestion();
 </script>
